@@ -1,0 +1,24 @@
+:root {
+  --radius-50: 0.5rem;
+  --radius-100: calc(var(--radius-50) * 2);
+  --radius-200: calc(var(--radius-50) * 4);
+  --radius-400: calc(var(--radius-50) * 8);
+  --radius-800: calc(var(--radius-50) * 16);
+}
+
+.imginsta {
+  width: 15%;
+  border-radius: 5px;
+  box-shadow: 0 1px 20px #0000004f;
+}
+.img-container {
+  display: flex;
+  max-width: 100%;
+  gap: 2px;
+  border-radius: var(--radius-800);
+  overflow: hidden;
+}
+.imginsta2 {
+  width: 0;
+  flex-grow: 1;
+}
